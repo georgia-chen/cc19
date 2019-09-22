@@ -1,0 +1,51 @@
+
+.bluecircle {
+  height: 100px;
+  width: 100px;
+  background-color: #1E88E5;
+  border-radius: 50%;
+}
+
+.violetcircle {
+  height: 100px;
+  width: 100px;
+  background-color: #9C27B0;
+  border-radius: 50%;
+}
+
+.indigocircle {
+  height: 100px;
+  width: 100px;
+  background-color:#5E35B1 ;
+  border-radius: 50%;
+}
+
+.redcircle {
+  height: 100px;
+  width: 100px;
+  background-color:#E53935 ;
+  border-radius: 50%;
+}
+
+.orangecircle {
+  height: 100px;
+  width: 100px;
+  background-color: #FB8C00;
+  border-radius: 50%;
+}
+
+.yellowcircle {
+  height: 100px;
+  width: 100px;
+  background-color: #FFEB3B;
+  border-radius: 50%;
+}
+
+.footer {
+  position:fixed;
+  bottom :0;
+  height: auto;
+  margin-left: 40px
+  width:100%;
+  text-align: left
+}
