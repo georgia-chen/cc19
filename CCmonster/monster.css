@@ -1,0 +1,139 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#yellow-box {
+	width:100%;
+	height:100%;
+	position: fixed;
+	background: #FFEE58;
+}
+
+#monsterbody {
+      display: block;
+      width: 400px;
+      height: 440px;
+      position:fixed; left:400px; top:100px;
+      background-color:#4CAF50;
+      border-radius: 50% 50% 50% 50% / 50% 50% 30% 30%;
+    }
+  
+#leg1 {
+      display: block;
+      position:absolute; top:340px; left:45px;
+      width: 110px;
+      height: 150px;
+      background-color: #4CAF50;
+      border-radius: 90% 90% 90% 90% /50% 50% 50% 50%;
+    }
+
+#eye1 {
+	width: 75%;
+	height: 55%;
+	position:absolute; bottom:300px;
+	background-color:white;
+	border-radius:80%;
+}
+
+#eyeball1 {
+	background-color:black;
+	width:40px;
+	height:40px;
+	border-radius:300px;
+	position:absolute; left:10px; top:20px;
+}
+
+#leg2 {
+      display: block;
+      position:fixed; top:440px; left:635px;
+      width: 110px;
+      height: 150px;
+      background-color: #4CAF50;
+      border-radius: 90% 90% 90% 90% /50% 50% 50% 50%;
+    }
+
+#eye2 {
+	width: 75%;
+	height:55%;
+	position:absolute; bottom:300px;
+	background-color:white;
+	border-radius:80%;
+	border-color: black 1px;
+}
+
+#eyeball2 {
+	background-color:black;
+	width:40px;
+	height:40px;
+	border-radius:300px;
+	position:absolute; left:10px; top:20px;
+}
+
+#red-circle {
+	background-color:red;
+	width:300px;
+	height:300px;
+	border-radius:300px;
+	position:absolute; left:323px; top:100px;
+}
+
+ #mouth {
+      width: 200px;
+      height: 100px;
+      position:fixed; top:320px; left:500px;
+      background: #FAFAFA;
+      border-radius:0% 0% 50% 50%;
+    }
+
+
+    #teeth {
+      width: 0;
+      height: 0;
+      position:absolute; top:0px; left:8px;
+      border-left: 18px solid transparent;
+      border-right: 18px solid transparent;
+      border-top: 30px solid black; 
+    }
+	 
+
+    #lue {
+      width: 130px;
+      height: 40px;
+      position:fixed; top:381px; left:530px;
+      background: #EF5350;
+      border-radius: 60% 70% 60% 70%;
+    }
+  
+  #arm1 {
+      display: block;
+      position:fixed; top:190px; left:780px;
+      transform:rotate(25deg);
+      width: 85px;
+      height: 190px;
+      background-color: #4CAF50;
+      border-radius: 90% 90% 90% 90% /50% 50% 50% 50%;
+    }
+  
+  #arm2 {
+      display: block;
+      position:fixed; top:190px; left:330px;
+      transform:rotate(-25deg);
+      width: 85px;
+      height: 190px;
+      background-color: #4CAF50;
+      border-radius: 90% 90% 90% 90% /50% 50% 50% 50%;
+    }
+  
+  #base {
+  width: 400px;
+  height: 80px;
+  position:fixed; top:545px; left:400px;
+  background: #1B5E20;
+  border-radius: 100px / 50px;
+    }
+
+
+
+   
