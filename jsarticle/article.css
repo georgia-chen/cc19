@@ -1,0 +1,110 @@
+html,body{
+	margin:auto;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+
+
+.textbox {
+    width:60%;
+    border:2px red solid;
+    padding:20px;
+}
+
+.box1{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 30px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+
+.box2{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        display:inline-block;
+        margin-left: 50px;
+        position:fixed left:50px;
+    }
+
+.box3{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+.box4{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+
+.box5{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+
+.box6{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+.box7{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    
+	}
+.box8{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+
+    .box9{
+        width: 70px;
+        height: 50%;
+        background: #E74C3C;
+        margin-top: 300px;
+        margin-left: 50px;
+        display:inline-block;
+        position:fixed left:50px;
+    }
+
+ textarea{
+  width: 100%;
+  height:50px;
+  background-color:#E74C3C;
+  padding: transparent 10px;
+  font-size:40px;
+
+}
