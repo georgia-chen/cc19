@@ -1,0 +1,185 @@
+#box{
+	width:100%;
+	height:2000px;
+	padding-top:150px;
+	padding-left:100px;
+	position:sticky;
+	transition: 2s ease-in;
+} 
+
+
+.icon-bar {
+  position: fixed;
+  padding:10px;
+  height:300px;
+  width:20px;
+  left:2px;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  width:50px;
+  height:100%;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 55px;
+}
+
+.icon-bar a:hover {
+  background-color: transparent;
+  opacity:50%;
+}
+
+.title{
+  background: transparent;
+  color: black;
+}
+
+.title2 {
+  background: transparent;
+  color: white;
+}
+
+#boxx{
+	padding:10px;
+	height:20px;
+	width:100%;
+	top:0px;
+	position:fixed;
+	background-color:transparent;
+}
+.icon-bar2 {
+  position: absolute;
+  z-index: 1000;
+  padding:10px;
+  height:20px;
+  width:300px;
+  left:20%;
+  top:0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.icon-bar2 a {
+  width:300px;
+  height:30px;
+  display: block;
+  text-align: left;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 55px;
+}
+
+.icon-bar2 a:hover {
+  background-color: transparent;
+  opacity:50%;
+}
+
+.stitle{
+  background: transparent;
+  color: black;
+}
+
+.stitle2 {
+  background: transparent;
+  color: white;
+}
+
+.imagebox{
+	width:20%;
+	height:200px;
+	position:relative;
+	float:center;
+	margin:10px;
+	padding:30px;
+	left:10px;
+	top:10px;
+	display:inline-block;
+
+}
+.colourbox{
+	width:200px;
+	height:300px;
+	position:relative;
+	left:30px;
+	display:inline-block;
+}
+
+.rectangle {
+	width: 180px;
+	height: 70px;
+	position:relative;
+	float:top;
+	margin:5px;
+	padding:3px;
+
+}
+
+.insiderec{
+	width: 180px;
+	height: 70px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: red;
+	transition: 2s ease-in;
+}
+
+
+.rectangle:hover .insiderec,
+.rectangle.clicked .insiderec {
+  opacity:15%;
+}
+
+.frame{
+	width: 172px;
+	height: 62px;
+	border:1px solid white;
+	float:center;
+
+}
+
+
+.name{
+	width: 180px;
+	height: 40px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	color:white;
+
+}
+
+.cmyk{
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	left:7px;
+	bottom:10px;
+	background-color:5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	color:white;
+}
+
+.ccode{
+	width: 60px;
+	height: 30px;
+	position:absolute;
+	right:3px;
+	bottom:10px;
+	background-color:5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	color:white;
+}
+
+
