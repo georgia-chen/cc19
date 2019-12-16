@@ -98,7 +98,7 @@
 	height:200px;
 	position:relative;
 	float:center;
-	margin:10px;
+	margin:20px;
 	padding:30px;
 	left:10px;
 	top:10px;
@@ -111,6 +111,7 @@
 	position:relative;
 	left:30px;
 	display:inline-block;
+	margin-top: :20px;
 }
 
 .rectangle {
