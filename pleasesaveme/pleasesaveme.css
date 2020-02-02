@@ -11,12 +11,13 @@
     position:relative;
     float:left;
     left:10px;
-    transition:transform 1s;
+    transition:transform 0.7s;
     width:150px;
     height:150px;
     margin:10 auto;
     grid-gap: 10px 10px;
     font-family: 'Bebas Neue';
+    text-align: center;
 }
 
 .cell-1{
@@ -36,7 +37,7 @@
 }
 
 .cell-2:hover{
-    transform: scale(-10);
+    transform: scale(-5);
   }
 
 
@@ -46,7 +47,7 @@
 }
 
 .cell-3:hover{
-    transform: scale(40);
+    transform: scale(30);
   }
 
 
