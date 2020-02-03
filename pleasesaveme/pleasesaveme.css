@@ -1,168 +1,178 @@
-#boxframe{
-    margin:40px;
-    padding:50px;
-    width:80%;
-    height:80%;
-    align:center;
+.frame{
+  height:130px;
+  width:100%;
+  top:150px;
+  left:80px;
+  position:fixed;
+  cursor: help;
+
 }
 
+.frame2{
+  height: 300px;
+  width:100%;
+  position: absolute;
+  top:320px;
+  left:90px;
+
+}
+
+#tickverb{
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  margin:10 auto;
+
+}
+
+#ticktext{
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin:10 auto;
+
+}
 
 .cell{
-    position:relative;
-    float:left;
-    left:10px;
-    transition:transform 0.7s;
-    width:150px;
-    height:150px;
-    margin:10 auto;
-    grid-gap: 10px 10px;
-    font-family: 'Bebas Neue';
-    text-align: center;
+  position:relative;
+  float:left;
+  transition:transform 0.25s;
+  margin:10 auto;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  font-size: 100px;
+  outline: none;
 }
 
 .cell-1{
-    background: transparent;
-    font-size: 60pt;
-
-
-    
+  background:transparent;
+  width:65px;
 }
+
 .cell-1:hover{
-    transform: scale(-10);
-  }
+  transform: scale(1.4)
+  rotate(-10deg)
+  translateX(10px);
+  color: orange;
+}
+
+.cell-1:active{
+  transform: scale(1.4)
+  rotate(30deg)
+  translateX(-10px);
+  cursor: pointer;
+}
 
 .cell-2{
-    background: transparent;
-    font-size: 100pt;
+  background:transparent;
+  width:37px;
+
 }
 
 .cell-2:hover{
-    transform: scale(-5);
-  }
+  transform: scale(-1.6)
+  rotate(20deg)
+  translateX(10px);;
+  cursor: pointer;
+  color: orange;
+}
 
+.cell-2:active{
+  transform: scale(-1.6)
+  rotate(-30deg)
+  translateX(-10px);
+}
 
 .cell-3{
-    background: transparent;
-    font-size: 30pt;
+  background:transparent;
+  width:71px;
 }
 
 .cell-3:hover{
-    transform: scale(30);
-  }
+  transform: scale(-1.5)
+  rotate(-20deg)
+  translateX(10px);;
+  color: orange;
+  cursor: pointer;
+}
 
+.cell-3:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
+
+}
 
 .cell-4{
-    background: transparent;
-    font-size: 60pt;
-
+  background:transparent;
+  width:76px;
 }
 
 .cell-4:hover{
-    transform: scale(-20);
-  }
-
-.cell-5{
-    background: transparent;
-    font-size:20pt;
-
+  transform: scale(1.4)
+  rotate(30deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
 }
 
-.cell-5:hover{
-    transform: scale(100);
-  }
+.cell-4:active{
+  transform: scale(1.6)
+  rotate(-10deg)
+  translateX(-10px);
+}
 
+.cell-5{
+  background:transparent;
+  width:65px;
+}
+.cell-5:hover{
+  transform: scale(-1.2) 
+  rotate(-10deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+  
+}
+
+.cell-5:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
+}
 
 .cell-6{
-    background:orange;
-    font-size:60pt;
+  background:transparent;
+  width:65px;
 }
 
 .cell-6:hover{
-    transform: scale(-10);
-  }
+  transform: scale(1.2)
+  rotate(30deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+}
 
+.cell-6:active{
+  transform: scale(1.6)
+  rotate(50deg)
+  translateX(-10px);
+}
 
 .cell-7{
-    background: blue;
-    font-size: 60pt;
+  background:transparent;
+  width:75px;
 }
 
 .cell-7:hover{
-    transform: scale(-70);
-  }
-
-
-.cell-8{
-    background:transparent;
-    font-size:80pt;
+  transform: scale(-1.5)
+  rotate(-20deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
 }
 
-.cell-8:hover{
-    transform: scale(-10);
-  }
-
-  .cell-9{
-    background: transparent;
-    font-size: 45pt ;
-}
-
-.cell-9:hover{
-    transform: scale(16);
-  }
-
-
-.cell-10{
-    background:orange;
-    font-size: 67pt;
-}
-
-.cell-10:hover{
-    transform: scale(-30);
-  }
-
-.cell-11{
-    background: blue;
-    font-size: 50pt;
-}
-
-.cell-11:hover{
-    transform: scale(-40);
-  }
-
-
-.cell-12{
-    background:transparent;
-    font-size: 40pt;
-}
-
-.cell-12:hover{
-    transform: scale(-20);
-  }
-
-
-.cell-13{
-    background: transparent;
-    font-size: 45pt ;
-}
-
-.cell-13:hover{
-    transform: scale(30)
-}
-
-.cell-14{
-    background:orange;
-    font-size: 30pt;
-}
-
-.cell-14:hover{
-    transform:scale(-20)
-}
-
-.cell-15{
-    background:blue;
-    font-size:70pt;
-}
-
-.cell-15:hover{
-    transform:scale(10)
+.cell-7:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
 }
